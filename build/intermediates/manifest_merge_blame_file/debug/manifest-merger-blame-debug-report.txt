@@ -1,0 +1,116 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.music_player"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="31"
+8-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:5:6-80
+11-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:5:23-78
+12
+13    <permission
+13-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+14        android:name="com.example.music_player.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.example.music_player.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:7:5-43:19
+20        android:allowBackup="true"
+20-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:8:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.10.1] C:\Users\JAINISH\.gradle\caches\transforms-3\e51ba1c54d0889d702970bbc876a2fdb\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:9:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:10:9-54
+26        android:icon="@mipmap/noise"
+26-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:11:9-37
+27        android:label="@string/app_name"
+27-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:12:9-41
+28        android:supportsRtl="true"
+28-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:13:9-35
+29        android:testOnly="true"
+30        android:theme="@style/slash" >
+30-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:14:9-37
+31        <activity
+31-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:17:9-21:56
+32            android:name="com.example.music_player.PlaylistActivity"
+32-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:18:13-45
+33            android:exported="false"
+33-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:19:13-37
+34            android:screenOrientation="portrait" />
+34-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:20:13-49
+35        <activity
+35-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:22:9-26:56
+36            android:name="com.example.music_player.FavouriteActivity"
+36-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:23:13-46
+37            android:exported="false"
+37-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:24:13-37
+38            android:screenOrientation="portrait" />
+38-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:25:13-49
+39        <activity
+39-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:27:9-31:56
+40            android:name="com.example.music_player.playeractivity"
+40-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:28:13-43
+41            android:exported="false"
+41-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:29:13-37
+42            android:screenOrientation="portrait" />
+42-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:30:13-49
+43        <activity
+43-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:32:9-42:20
+44            android:name="com.example.music_player.MainActivity"
+44-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:33:13-41
+45            android:exported="true"
+45-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:34:13-36
+46            android:screenOrientation="portrait" >
+46-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:35:13-49
+47            <intent-filter>
+47-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:37:13-41:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:38:17-69
+48-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:38:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:40:17-77
+50-->C:\Users\JAINISH\Desktop\musicPlayer2\app\src\main\AndroidManifest.xml:40:27-74
+51            </intent-filter>
+52        </activity>
+53
+54        <provider
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+55            android:name="androidx.startup.InitializationProvider"
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+56            android:authorities="com.example.music_player.androidx-startup"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+57            android:exported="false" >
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+58            <meta-data
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+59                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+60                android:value="androidx.startup" />
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\JAINISH\.gradle\caches\transforms-3\66814d0c9c223a08105bc116aeb53dd5\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+61            <meta-data
+61-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JAINISH\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+62                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+62-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JAINISH\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+63                android:value="androidx.startup" />
+63-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\JAINISH\.gradle\caches\transforms-3\d64e7ca6b93f4a6c092b1dd37cf249d6\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+64        </provider>
+65    </application>
+66
+67</manifest>

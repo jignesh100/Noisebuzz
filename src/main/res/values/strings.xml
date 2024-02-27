@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">NoiseBuzz</string>
+    <string name="shuffle_btn">shuffle</string>
+    <string name="favourites_btn">favourites</string>
+    <string name="playlist_btn">playlist</string>
+    <string name="Total_song">Total Songs</string>
+    <string name="World">World of Music</string>
+    <string name="song_name">Song name</string>
+    <string name="back_btn">Back</string>
+    <string name="start_tv">00:00</string>
+    <string name="end_tv">Loading..</string>
+    <string name="repeat_btn">repeat</string>
+    <string name="equalizer_btn">equalizer</string>
+    <string name="timer_btn">Timer</string>
+    <string name="share_btn">Share</string>
+    <string name="Open">Open</string>
+    <string name="Close">Close</string>
+    <string name="App_Icon">Icon</string>
+    <string name="Text_nav">Welcome to NoiseBuzz. \nYour Sound, Your Buzz</string>
+    <string name="feedback">Feedback</string>
+    <string name="setting">Setting</string>
+    <string name="about">About</string>
+    <string name="exit">Exit</string>
+    <string name="Song_album">Song Album</string>
+</resources>
